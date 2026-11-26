@@ -1,0 +1,2 @@
+ros2へトピックを送るためのもの
+sever_rosbridge.shを実行したらウェブページ用
