@@ -1,0 +1,44 @@
+
+{
+
+  "messages": [
+    {
+      "name": "/potato_test",
+      "type": "potato_messages/msg/PotatoTest",
+      "fields": {
+        "enable": true,
+        "speed": 0.5,
+        "direction": 1,
+        "mode": "manual"
+      }
+    },
+    {
+      "name": "/test_bool",
+      "type": "std_msgs/msg/Bool",
+      "fields": {
+        "data": true
+      }
+    },
+    {
+      "name": "/test_string",
+      "type": "std_msgs/msg/String",
+      "fields": {
+        "data": "Hello ROS2"
+      }
+    }
+  ],
+
+
+
+  "services": [
+    {
+      "name": "/potato_service",
+      "type": "potato_messages/srv/PotatoService",
+      "fields": {
+        "value": 10
+      }
+    }
+  ]
+
+  
+}
